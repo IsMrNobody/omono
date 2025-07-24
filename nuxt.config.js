@@ -7,16 +7,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - Mila Café',
-    title: 'Mila Café',
+    titleTemplate: '%s - Omono Restaurant',
+    title: 'Omono Restaurant',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'Mila Café', content: 'Más que un café, una experincia' },
-      { name: 'format-detection', content: 'Mila Café' }
+      { hid: 'description', name: 'Omono Restaurant', content: 'Más que un café, una experincia' },
+      { name: 'format-detection', content: 'Omono Restaurant' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -30,7 +30,7 @@ export default {
   loading: { color: 'secondary' },
 
   manifest: {
-    name: 'MilaCafé',
+    name: 'Omono Restaurant',
     short_name: 'MC',
     background_color: 'secondary',
     theme_color: 'tercero',
