@@ -2,7 +2,7 @@
   <div>
     <v-img width="100vw" height="310" :src="merchant.banner"> 
       <v-card class="transparent text-center mt-10" flat>
-        <v-img width="250" class="mx-auto" src="https://res.cloudinary.com/dku13l2ep/image/upload/v1711547822/JARTATE/Ciudad/maracay/milacafe/logo/horizontal_white_bdgmf9.png"></v-img>
+        <v-img width="150" class="mx-auto" :src="merchant.logo"></v-img>
         <!-- <h2>{{ merchant.name }}</h2> -->
         <h3>{{ merchant.slogan }}</h3>
         <p>{{ merchant.address }}</p>
