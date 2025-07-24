@@ -1,0 +1,49 @@
+### create merchant
+
+# POST http://localhost:3001/merchant/create-local
+POST https://sweet-blessing-back.vercel.app/merchant/create-local
+Content-Type: application/json
+
+{
+  "name": "Pizza Top",
+  "tag": "pizzatop",
+  "description": "Comida Rapida",
+  "active": true,
+  "phone": 584128352365,
+  "pass": "pizzatop",
+  "payment": [
+    {
+      "type": "Dolar",
+      "bankName": "Zelle",
+      "email": "pizzatop@gmail.com",
+      "icon": "mdi-cash",
+      "img": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png"
+    },
+    {
+      "type": "Bolivares",
+      "bankName": "Pago Movil",
+      "bankNumber": "0105",
+      "phone": "4128352365",
+      "cedula": "22444555",
+      "email": "pizzatop@gmail.com",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVMuvoa4EHj43QJ-E1OTN1aChTqeASMCvl0w&usqp=CAU"
+    }
+  ],
+  "logo": "",
+  "banner": "",
+  "slogan": "Delisiosas Pizzas en Anaco"
+}
+
+## id pizza top: 63d2ef189a146a7033b41117
+
+### get one merchant
+https://sweet-blessing-back.vercel.app/merchant/63d2ef189a146a7033b41117
+
+
+### put merchant piiza top
+PUT https://sweet-blessing-back.vercel.app/merchant/63d2ef189a146a7033b41117
+Content-Type: application/json
+
+{
+  "banner": "https://res.cloudinary.com/dku13l2ep/image/upload/v1674829503/Pizza%20Top/Recursos/bg-banner_o324xg.jpg"
+}
