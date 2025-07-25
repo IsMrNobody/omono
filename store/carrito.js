@@ -111,6 +111,7 @@ export const actions = {
         merchantId: rootState.merchant._id,
         merchantPhone: rootState.merchant.phone,
         merchantEmail: rootState.merchant.email,
+        merchantName: rootState.merchant.name,
         ...form
       }
       const order = await sendOrder(pedido)
